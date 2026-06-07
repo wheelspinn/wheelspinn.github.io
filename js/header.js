@@ -1,12 +1,12 @@
 // header.js — Site Header Component
 (function () {
   const NAV = [
-    { label: 'Spin Wheel', href: '#hero' },
-    { label: 'Features', href: '#features' },
-    { label: 'How It Works', href: '#how-it-works' },
-    { label: 'Wheel Types', href: '#wheel-types-section' },
-    { label: 'Use Cases', href: '#use-cases' },
-    { label: 'FAQ', href: '#faq' },
+    { label: 'Spin Wheel', href: '/#hero' },
+    { label: 'Features', href: '/#features' },
+    { label: 'How It Works', href: '/#how-it-works' },
+    { label: 'Wheel Types', href: '/#wheel-types-section' },
+    { label: 'Use Cases', href: '/#use-cases' },
+    { label: 'FAQ', href: '/#faq' },
   ];
 
   function buildHeader() {
@@ -15,9 +15,9 @@
 
     header.innerHTML = `
       <div class="header-inner">
-        <a href="#hero" class="logo">
+        <a href="/#hero" class="logo">
           <div class="logo-icon">🎡</div>
-          WheelSpinn
+          Wheel Spinner
         </a>
         <nav class="nav-links" id="main-nav">
           ${NAV.map(n => `<a href="${n.href}">${n.label}</a>`).join('')}
