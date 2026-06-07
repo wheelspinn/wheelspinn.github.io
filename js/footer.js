@@ -19,8 +19,8 @@
       { label: 'How It Works', href: '#how-it-works' },
       { label: 'Use Cases', href: '#use-cases' },
       { label: 'FAQ', href: '#faq' },
-      { label: 'Privacy Policy', href: '#' },
-      { label: 'Terms of Use', href: '#' },
+      { label: 'Contact', href: '/contact' },
+      { label: 'About', href: '/about' },
     ],
   };
 
