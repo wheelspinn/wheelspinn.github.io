@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — WheelSpinn</title>
+  <meta name="description" content="Have questions or feedback about WheelSpinn? Get in touch with us directly via email.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    .contact-content { padding: 60px 0 100px; max-width: 650px; margin: 0 auto; }
+    .contact-card {
+      background: var(--surface); border: 2px solid var(--border); border-radius: var(--radius-lg);
+      padding: 48px; box-shadow: 0 20px 60px var(--shadow); text-align: center;
+    }
+    .contact-card p { color: var(--text2); font-size: 1rem; line-height: 1.7; margin-bottom: 24px; }
+    .email-btn {
+      display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, var(--primary), #FF8C42);
+      color: white; font-family: var(--font-ui); font-weight: 700; font-size: 1.05rem; padding: 16px 32px;
+      border-radius: 50px; box-shadow: 0 6px 24px rgba(255,107,53,0.35); transition: var(--transition);
+    }
+    .email-btn:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(255,107,53,0.45); }
+    .info-grid { margin-top: 40px; display: grid; grid-template-columns: 1fr; gap: 16px; border-top: 2px solid var(--border); padding-top: 32px; }
+    .info-item { font-size: 0.9rem; color: var(--text3); font-weight: 600; }
+    .info-item strong { color: var(--text); }
+    @media (max-width: 768px) { .contact-card { padding: 32px 24px; } }
+  </style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="site-header"></header>
+
+<!-- ===== MAIN ===== -->
+<main>
+  <section aria-label="Contact Details">
+    <div class="blob" style="width:350px;height:350px;background:rgba(255,209,102,0.15);top:20%;left:-100px;animation-duration:9s"></div>
+    <div class="blob" style="width:400px;height:400px;background:rgba(6,214,160,0.12);bottom:-100px;right:-100px;animation-duration:11s"></div>
+
+    <div class="container contact-content">
+      <div style="text-align:center; margin-bottom: 40px;">
+        <div class="section-label">✉️ Connect</div>
+        <h1 class="section-title">Get In Touch</h1>
+        <p class="section-sub">Have an idea for a feature, spotted a bug, or just want to say hi? Drop a message!</p>
+      </div>
+
+      <div class="contact-card">
+        <p>Whether you want to discuss custom tool modifications, point out optimization updates, or share how you are using WheelSpinn in your classes or live streams, my inbox is always open[cite: 2].</p>
+        
+        <a href="mailto:nolushac@gmail.com" class="email-btn">
+          📩 Email: nolushac@gmail.com
+        </a>
+
+        <div class="info-grid">
+          <div class="info-item">Developer Support: <strong>Waqas Bukhari</strong></div>
+          <div class="info-item">Response Time Estimate: <strong>Within 24-48 Hours</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer id="site-footer"></footer>
+
+<!-- ===== SCRIPTS ===== -->
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>
