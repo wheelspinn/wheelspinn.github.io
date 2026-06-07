@@ -50,7 +50,7 @@
           <div class="footer-brand">
             <div class="footer-logo">
               <div class="footer-logo-icon">🎡</div>
-              WheelSpinn
+              Wheel Spinner
             </div>
             <p class="footer-tagline">
               The most customizable free spin the wheel tool online. Make decisions fun with beautiful, interactive spinning wheels — no signup needed.
@@ -64,9 +64,11 @@
         <div class="footer-bottom">
           <p class="footer-copy">© ${new Date().getFullYear()} WheelSpinn.github.io — Free Spin The Wheel Tool. All rights reserved.</p>
           <div class="footer-legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
-            <a href="#">Cookie Policy</a>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms of Use</a>
+            <a href="/cookies">Cookie Policy</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
           </div>
         </div>
       </div>
