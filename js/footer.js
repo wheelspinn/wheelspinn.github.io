@@ -66,9 +66,7 @@
           <div class="footer-legal">
             <a href="/privacy">Privacy Policy</a>
             <a href="/terms">Terms of Use</a>
-            <a href="/cookies">Cookie Policy</a>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
+            <a href="/cookies">Cookie Policy</a>            
           </div>
         </div>
       </div>
